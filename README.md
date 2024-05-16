@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Pokedex project! This application serves as a comprehensive resource for Pokemon enthusiasts, providing detailed information about various Pokemon species. It also serves as a platform for testing new React versions and leveraging TypeScript in a real-world project, aiming to enhance both user experience and developer skills.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Pokemon Catalog:** Browse through a list of all Pokemon species.
+- **Detailed Information:** View additional details about each Pokemon upon selection.
+- **Classic Pokedex Design:** Enjoy a nostalgic interface reminiscent of the classic Pokedex.
 
-## Expanding the ESLint configuration
+## Future Enhancements
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Item Information:** Extend the application to include information about items in the Pokemon universe.
+- **Expanded Pokemon Details:** Provide more comprehensive information about each Pokemon, such as abilities, moves, and evolutions.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React 19:** Utilize the latest version of React for building the frontend UI.
+- **React Compiler:** Compile React code for optimal performance.
+- **TypeScript:** Enhance code quality and maintainability with static typing.
+- **Tailwind CSS:** Streamline UI development with utility-first CSS framework.
+- **React Router:** Implement navigation and routing within the application.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+1. **Clone the Repository:** `git clone [repository URL]`
+2. **Install Dependencies:** `npm install`
+3. **Start the Development Server:** `npm start`
+4. **Access the Application:** Open your browser and navigate to `http://localhost:3000`
+
+## Contribution
+
+Contributions to the project are welcome! Feel free to submit bug reports, feature requests, or pull requests via GitHub.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
